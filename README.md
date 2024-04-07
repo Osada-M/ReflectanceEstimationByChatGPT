@@ -1,6 +1,6 @@
 This repository contains the prompts used in the GPT experiments for *"Reflectance Estimation for Proximity Sensing by Vision-Language Models: Utilizing Distributional Semantics for Low-Level Cognition in Robotics"*.
 
-<br><br>
+<br>
 
 # Abstract of the paper
 
@@ -8,7 +8,7 @@ This repository contains the prompts used in the GPT experiments for *"Reflectan
 While large language models (LLMs) and vision-language models (VLMs) have been increasingly used in robotics for problems requiring high-level cognition, their use for low-level cognition, such as interpreting sensor information, has not been sufficiently explored. In robotic grasping, proximity sensors are used to adjust the grasping pose before contact but the reflectance of the target objects significantly impacts the distance measured by the sensors.Therefore, estimating the reflectance of objects is crucial for successful grasping, which requires interpreting sensing information. Since LLMs embed human knowledge by keeping the relation between words as postulated by distributional semantics, it may be possible that LLMs can estimate reflectance from only object names without using any image input.Moreover, as VLMs are trained with image-text pairs, it may be possible that the latent structure of language positively affects the image-based reflectance estimation.In this paper, we verify that 1) LLMs such as GPT-3.5 and GPT-4 can estimate an object's reflectance using only text as input; and 2) VLMs such as CLIP can increase their generalization capabilities and, consequently, achieve a higher accuracy in reflectance estimation from images. We evaluated the accuracy in reflectance estimation for unseen objects using LLMs with text input and VLMs with image input and compared them to image-only methods such as ResNet. As a result, GPT-4 achieved a mean error of 14.7%, lower than ResNet, even with the input being only text. Moreover, while CLIP achieved the lowest mean error of 11.8%, GPT-3.5 obtained 19.9%, a competitive result when compared to the image-only ResNet which achieved 17.8%. The results suggest that the distributional semantics in LLMs and VLMs increases their generalization capabilities and that the knowledge acquired by VLMs is positively affected by the latent structure of language.
 ```
 
-<br><br>
+<br>
 
 # Prompt
 
@@ -87,7 +87,7 @@ for word in ["whiteboard eraser", "bristle of a brush", "smartphone", "adhesive"
 
 ```
 
-<br><br>
+<br>
 
 # The output of GPT-4
 
