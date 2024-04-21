@@ -1,5 +1,7 @@
 This repository contains the prompts used in the GPT experiments for *"Reflectance Estimation for Proximity Sensing by Vision-Language Models: Utilizing Distributional Semantics for Low-Level Cognition in Robotics"*.
 
+[pre-print](https://arxiv.org/abs/2404.07717)
+
 <br>
 
 # Abstract of the paper
